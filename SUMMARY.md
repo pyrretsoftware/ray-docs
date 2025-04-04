@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Welcome](README.md)
+
 ## Guides
 
-* [Installation](README.md)
+* [Installation](<README (1).md>)
 * [Deploying a project](guides/publish-your-docs/README.md)
   * [Creating your project config](guides/publish-your-docs/creating-your-project-config.md)
   * [Making your app ray-compatible](guides/publish-your-docs/making-your-app-ray-compatible.md)
