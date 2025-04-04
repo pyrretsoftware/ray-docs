@@ -1,17 +1,10 @@
 # Table of contents
 
-* [Welcome](README.md)
+## Guides
 
-## Getting Started
-
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
-
-## Basics
-
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Installation](README.md)
+* [Deploying a project](guides/publish-your-docs/README.md)
+  * [Creating your project config](guides/publish-your-docs/creating-your-project-config.md)
+  * [Making your app ray-compatible](guides/publish-your-docs/making-your-app-ray-compatible.md)
+  * [Editing your ray config](guides/publish-your-docs/editing-your-ray-config.md)
+  * [Extending your project with more ray features](guides/publish-your-docs/extending-your-project-with-more-ray-features.md)
