@@ -4,7 +4,7 @@ icon: code
 
 # Making your app ray-compatible
 
-The only thing you need to change in your app for it to be compatible with ray is the port it uses. Ray will automatically expose the `ray-port` environment variable to your app, so you simply need have your application use that port.
+The only thing you need to change in your app for it to be compatible with ray is the port it uses. Ray will automatically expose the `ray-port` environment variable to your app, so you simply need to have your application use that port.
 
 For example, in an express.js application:
 
