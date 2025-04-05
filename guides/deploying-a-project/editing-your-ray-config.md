@@ -4,7 +4,7 @@ icon: server
 
 # Editing your ray config
 
-Finally, you'l need to add your project to your ray config, see the example below for a simple config entry:
+Finally, you'l need to add your project to your ray config. See the example below:
 
 ```json
 {
