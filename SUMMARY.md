@@ -10,3 +10,7 @@
   * [Making your app ray-compatible](guides/deploying-a-project/making-your-app-ray-compatible.md)
   * [Editing your ray config](guides/deploying-a-project/editing-your-ray-config.md)
   * [Extending your project with more ray features](guides/deploying-a-project/extending-your-project-with-more-ray-features.md)
+
+## Documentation
+
+* [Common issues](documentation/common-issues.md)
