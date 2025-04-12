@@ -24,7 +24,7 @@ Now, unzip the zip archive you just downloaded. You will be left with an install
 
 ## 3. Running the setup wizard
 
-Finally, run `sudo ./rayinstall build.rpack` on Linux or `rayinstall build.rpack` as an admin on Windows to begin the installation.
+Finally, run `sudo ./rayinstall i build.rpack` on Linux or `rayinstall i build.rpack` as an admin on Windows to begin the installation.
 
 ## 4. Finishing up
 
