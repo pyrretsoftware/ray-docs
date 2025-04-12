@@ -14,8 +14,6 @@
 ## Documentation
 
 * [Common issues](documentation/common-issues.md)
-
-***
-
-* [Configuration](configuration/README.md)
-  * [Project](configuration/project.md)
+* [CLI](documentation/cli.md)
+* [Configuration](documentation/configuration/README.md)
+  * [Project](documentation/configuration/project.md)

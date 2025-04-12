@@ -23,7 +23,7 @@ Domain specifies a host your project should be accessible at. It is matched by r
 
 ### Deployments `[]deployment`&#x20;
 
-Deployments specifies your project's [deployments](../guides/deploying-a-project/extending-your-project-with-more-ray-features.md#different-deployments).
+Deployments specifies your project's [deployments](../../guides/deploying-a-project/extending-your-project-with-more-ray-features.md#different-deployments).
 
 ### PluginImplementation `string`&#x20;
 
