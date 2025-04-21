@@ -12,12 +12,12 @@ Your project config, also called your `ray.config.json` file is a file that live
   "Pipeline" : [
     {
       "Tool" : "npm",
-      "Command" : "install",
+      "Command" : ["install"],
       "Type" : "build"
     }, 
     {
       "Tool" : "node",
-      "Command" : "index.js",
+      "Command" : ["index.js"],
       "Type" : "deploy"
     }
   ]
