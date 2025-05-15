@@ -11,6 +11,13 @@
   * [Editing your ray config](guides/deploying-a-project/editing-your-ray-config.md)
   * [Extending your project with more ray features](guides/deploying-a-project/extending-your-project-with-more-ray-features.md)
 
+***
+
+* [Using rray](using-rray.md)
+* [Getting started with RLS](getting-started-with-rls/README.md)
+  * [How RLS works](getting-started-with-rls/how-rls-works.md)
+  * [Using RLS](getting-started-with-rls/using-rls.md)
+
 ## Documentation
 
 * [Common issues](documentation/common-issues.md)

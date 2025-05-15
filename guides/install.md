@@ -18,25 +18,21 @@ Some of the architecture names can be a bit confusing, so see the list below if 
 
 The rest of the architecture names are pretty self explanatory.&#x20;
 
-## 2. Unzip the archive
+## 2. Running the setup wizard
 
-Now, unzip the zip archive you just downloaded. You will be left with an installation package (the build.rpack) file, as well as the rayinstall utility to help you install it.
+Finally, run `sudo ./rayinstall` on Linux or just `rayinstall` as an admin on Windows to begin the installation.
 
-## 3. Running the setup wizard
-
-Finally, run `sudo ./rayinstall i build.rpack` on Linux or `rayinstall i build.rpack` as an admin on Windows to begin the installation.
-
-## 4. Finishing up
+## 3. Finishing up
 
 {% hint style="success" %}
-If your server uses Linux with systemd (eg. Fedora, Red Hat, Debian, Ubuntu, OpenSUSE or Arch) you do not need to do anything.
+If your server uses Linux with systemd (eg. Fedora, Red Hat, Debian, Ubuntu, OpenSUSE or Arch) you do not need to do anything more.
 {% endhint %}
 
 See the steps below depending on your platform.
 
 {% tabs %}
 {% tab title="Linux" %}
-If your Linux distro doesn't use systemd, you'l have to register rays as a service/daemon manually if you want it to be automatically started. See the commands below for what to specify when doing that:
+If your Linux distro **doesn't** use systemd, you'll have to register rays as a service/daemon manually if you want it to be automatically started. See the commands below for what to specify when doing that:
 
 * Starting: `sudo rays --daemon`&#x20;
 * Stopping: `sudo rays stop`&#x20;

@@ -22,3 +22,7 @@ app.listen(port, () => {
 })
 
 ```
+
+{% hint style="success" %}
+Tip: the ray-port environment variable is also available under the name "RAY\_PORT". &#x20;
+{% endhint %}

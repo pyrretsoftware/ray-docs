@@ -32,3 +32,11 @@ PluginImplementation specifies that the project implements a plugin, which tells
 ### Options `map[string]string`&#x20;
 
 Options is a list of special options that isn't always available. The list changes frequently, so it won't be written out here.
+
+### DeployOn `[]string`&#x20;
+
+List of names of the RLS helper servers to deploy this project to. Use "local" to specify the current server. Default value is \["local"]
+
+### ProdTypeIsDev `bool`&#x20;
+
+Whether or not to treat the `prod` channel of this project as a deployment with type `dev` (that is, require authentication)
