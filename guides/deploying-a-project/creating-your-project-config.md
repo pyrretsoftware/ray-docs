@@ -9,6 +9,7 @@ Your project config, also called your `ray.config.json` file is a file that live
 {% code title="ray.config.json" %}
 ```json
 {
+  "Version" : "v1",
   "Pipeline" : [
     {
       "Tool" : "npm",
