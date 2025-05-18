@@ -21,12 +21,6 @@ Binaries are [available on Github](https://github.com/pyrretsoftware/ray/release
 
 <summary>Windows</summary>
 
-On windows, you can install rray with winget:
-
-```bash
-winget install -e --id Pyrret.Rray
-```
-
 Binaries are also [available on Github](https://github.com/pyrretsoftware/ray/releases).
 
 </details>
