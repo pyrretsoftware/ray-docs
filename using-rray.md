@@ -9,29 +9,25 @@ Rray is a tool used to easily communicate with remote ray server. It's designed 
 
 ### Installation
 
-<details>
+Rray can easily be downloaded through through pyrret's package server. You can navigate to [pkgs.pyrret.com](https://pkgs.pyrret.com/) and find a binary by choosing os and architecture. You usually want rray installed in `/usr/bin` on Linux or Macos and `%%USERPROFILE%%` on Windows. See the commands below depending on platform.
 
-<summary>Linux</summary>
+On Linux/Macos, if you have wget installed:
 
-Binaries are [available on Github](https://github.com/pyrretsoftware/ray/releases).
+```bash
+cd /usr/bin && wget "https://pkgs.pyrret.com/linux/ARCH/rays"
+```
 
-</details>
+On Windows, using powershell:
 
-<details>
+```batch
+cd %%USERPROFILE%% && wget "https://pkgs.pyrret.com/windows/amd64/rays"
+```
 
-<summary>Windows</summary>
+{% hint style="info" %}
+On Windows, make sure to add %%USERPROFILE%% to your path variable, that way you can use rray everywhere.
+{% endhint %}
 
-Binaries are also [available on Github](https://github.com/pyrretsoftware/ray/releases).
-
-</details>
-
-<details>
-
-<summary>MacOS</summary>
-
-Binaries are [available on Github](https://github.com/pyrretsoftware/ray/releases).
-
-</details>
+Otherwise, you can also build rray yourself. Clone the repository and run `go build` in the rray directory. A binary named `rray` or `rray.exe` will be produced.
 
 ### Adding a remote
 
