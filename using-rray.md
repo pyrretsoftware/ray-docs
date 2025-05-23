@@ -17,17 +17,21 @@ On Linux/Macos, if you have wget installed:
 cd /usr/bin && wget "https://pkgs.pyrret.com/linux/ARCH/rays"
 ```
 
+Making sure to replace ARCH with your actual processor architecture (386, amd64, arm64)
+
 On Windows, using powershell:
 
 ```batch
 cd %%USERPROFILE%% && wget "https://pkgs.pyrret.com/windows/amd64/rays"
 ```
 
+Making sure to replace amd64 if you're running 32 bit Windows or Windows for arm (with 386 or arm64)
+
 {% hint style="info" %}
 On Windows, make sure to add %%USERPROFILE%% to your path variable, that way you can use rray everywhere.
 {% endhint %}
 
-Otherwise, you can also build rray yourself. Clone the repository and run `go build` in the rray directory. A binary named `rray` or `rray.exe` will be produced.
+If your platform isn't on our package server, you can also build rray yourself. It compiles to any operating systems and architectures supported by golang, so just clone the ray repository and run `go build` in the rray directory. A binary named `rray` or `rray.exe` will be produced.
 
 ### Adding a remote
 
