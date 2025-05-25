@@ -20,6 +20,7 @@
 
 ## Documentation
 
+* [Troubleshooting](documentation/troubleshooting.md)
 * [Common issues](documentation/common-issues.md)
 * [CLI](documentation/cli.md)
 * [Configuration](documentation/configuration/README.md)

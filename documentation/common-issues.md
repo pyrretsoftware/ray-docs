@@ -5,6 +5,10 @@ icon: circle-exclamation
 
 # Common issues
 
+## Json marshaling issue
+
+You have an error in one of your config files, the message will tell you what's wrong.
+
 ## Authenticating when using private repos
 
 When using private repos with ray, you might run into the following issue:
