@@ -4,7 +4,7 @@ icon: sliders-up
 
 # Using RLS
 
-Let's get on to actually using RLS. To add a helper server, see the example below:
+Now that we have some theory on how RLS works, let's get on to actually using it. To add a helper server, see the example below:
 
 {% code title="rayconfig.json" %}
 ```json
@@ -23,7 +23,7 @@ Let's get on to actually using RLS. To add a helper server, see the example belo
 ```
 {% endcode %}
 
-The most interesting part of the above snippet is the Weight field, which you probably noticed. It's used to specify how many more requests the server should receive relative to the local server, used when some servers are more powerful than others. As mentioned, it's relative to the local server where the local server has a weight of 1. &#x20;
+In the above snippet, pay attention to the Weight field. It's used to specify how many more requests the server should receive relative to the local server. It's used when some servers are more powerful than others. As mentioned, it's relative to the local server, where the local server has a weight of 1. &#x20;
 
 {% hint style="warning" %}
 Weights can only have a precision of two decimal points
@@ -45,3 +45,5 @@ Now, to specify what servers to deploy a project on, see the example below:
 }
 ```
 {% endcode %}
+
+Like explained before, ray will now load balance traffic to "example project" between the local server and "other-server".&#x20;
