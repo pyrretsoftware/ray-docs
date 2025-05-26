@@ -14,7 +14,7 @@ Rray can easily be downloaded through through pyrret's package server. You can n
 On Linux/Macos, if you have wget installed:
 
 ```bash
-cd /usr/bin && wget "https://pkgs.pyrret.com/linux/ARCH/rays"
+cd /usr/bin && sudo wget "https://pkgs.pyrret.com/linux/ARCH/rray"
 ```
 
 Making sure to replace ARCH with your actual processor architecture (386, amd64, arm64)
@@ -22,7 +22,7 @@ Making sure to replace ARCH with your actual processor architecture (386, amd64,
 On Windows, using powershell:
 
 ```batch
-cd %%USERPROFILE%% && wget "https://pkgs.pyrret.com/windows/amd64/rays"
+cd %%USERPROFILE%% && sudo wget "https://pkgs.pyrret.com/windows/amd64/rray"
 ```
 
 Making sure to replace amd64 if you're running 32 bit Windows or Windows for arm.
