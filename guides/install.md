@@ -18,29 +18,33 @@ Some of the architecture names can be a bit confusing, so see the list below if 
 
 The rest of the architecture names are pretty self explanatory.&#x20;
 
-## 2. Running the setup wizard
+## 2. Unzip the installation package
 
-Finally, run `sudo ./rayinstall` on Linux or just `rayinstall` as an admin on Windows to begin the installation.
+Unzip the installation package you downloaded from the previous step and navigate to the extracted folder.
 
-## 3. Finishing up
+## 3. Running the setup wizard
 
-{% hint style="success" %}
-If your server uses Linux with systemd (eg. Fedora, Red Hat, Debian, Ubuntu, OpenSUSE or Arch) you do not need to do anything more.
-{% endhint %}
+Next, run `sudo ./rayinstall` on Linux or just `rayinstall` as an admin on Windows to begin the installation.
+
+## 4. Finishing up
 
 See the steps below depending on your platform.
 
 {% tabs %}
-{% tab title="Linux" %}
+{% tab title="Linux (systemd)" %}
+If you're on a Linux system with systemd (Ubuntu, Debian, Fedora, Arch, openSUSE, Manjaro, etc), you just need to enable rays as a systemd service with `sudo systemctl enable rays` . It's recommended that you now perform a reboot, but if you would like to avoid that you can start rays manually with `sudo systemctl start rays`
+{% endtab %}
+
+{% tab title="Linux (non systemd)" %}
 If your Linux distro **doesn't** use systemd, you'll have to register rays as a service/daemon manually if you want it to be automatically started. See the commands below for what to specify when doing that:
 
-* Starting: `sudo rays --daemon`&#x20;
+* Starting: `sudo rays daemon`&#x20;
 * Stopping: `sudo rays stop`&#x20;
 * Reloading: `sudo rays reload`&#x20;
 {% endtab %}
 
 {% tab title="Windows" %}
-In order to use the `rays` command globally, you'l need to [add the %USERPROFILE% directory to your path variable.](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
+In order to use the `rays` command on windows globally, you'l need to [add the %USERPROFILE% directory to your path variable.](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
 
 Currently, ray server does not register itself as a Windows service automatically. You can try to do that manually, or you can add a batch script that launches rays to your autostart directory (shell:startup). For example:
 
@@ -52,7 +56,4 @@ rays --daemon
 {% endtab %}
 {% endtabs %}
 
-
-
-
-
+Congrats for getting rays installed! It's recommended that you perform a reboot after installation. If you would like to test rays, you can run `curl http://localhost/curl_test.txt` .
