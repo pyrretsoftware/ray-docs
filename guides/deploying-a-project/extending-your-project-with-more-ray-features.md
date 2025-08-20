@@ -16,7 +16,7 @@ One of ray's main features is being able to have different branches on your git 
         {
             "Name" : "new-project",
             "Src" : "https://github.com/username/new-project-repo",
-            "Domain" : "localhost"
+            "Domain" : "localhost",
             "Deployments": [
                 {
                     "Branch": "cool-feature",
