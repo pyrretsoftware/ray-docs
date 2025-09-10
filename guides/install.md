@@ -14,7 +14,7 @@ If you want the latest stable release (recommended), navigate to [the releases p
 Some of the architecture names can be a bit confusing, so see the list below if you need help picking the right installation package.
 
 * **386** refers to the 32 bit version of the x86 architecture, found in older processors made by Intel. The name comes from the Intel 80386; the first 32 bit x86 processor.
-* **amd64** refers to the 64 bit version of the x86 architecture  (x86-64), found in most processors made by AMD and Intel. It's the most common architecture for PC's and servers.
+* **amd64** refers to the 64 bit version of the x86 architecture (x86-64), found in most processors made by AMD and Intel. It's the most common architecture for PC's and servers.
 
 The rest of the architecture names are pretty self explanatory.&#x20;
 
@@ -44,16 +44,14 @@ If your Linux distro **doesn't** use systemd, you'll have to register rays as a 
 {% endtab %}
 
 {% tab title="Windows" %}
-In order to use the `rays` command on windows globally, you'l need to [add the %USERPROFILE% directory to your path variable.](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
-
 Currently, ray server does not register itself as a Windows service automatically. You can try to do that manually, or you can add a batch script that launches rays to your autostart directory (shell:startup). For example:
 
 {% code title="shell:startup\rays.bat" %}
 ```batch
-rays --daemon
+rays daemon
 ```
 {% endcode %}
 {% endtab %}
 {% endtabs %}
 
-Congrats for getting rays installed! It's recommended that you perform a reboot after installation. If you would like to test rays, you can run `curl http://localhost/curl_test.txt` .
+Rays is now installed! It's recommended that you perform a reboot after installation. If you would like to test rays, you can run `curl http://localhost/curl_test.txt` .
